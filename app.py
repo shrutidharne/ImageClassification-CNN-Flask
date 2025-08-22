@@ -3,9 +3,6 @@
 Created on Tue May 21 16:33:55 2024
 
 @author: HP
-
-
-
 """
 from __future__ import division, print_function
  #coding=utf-8
@@ -76,4 +73,5 @@ def upload():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
