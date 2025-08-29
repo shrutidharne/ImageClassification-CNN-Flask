@@ -24,8 +24,6 @@ In this code pattern, we have considered applications for Purchase Agreement and
 
 We will use Python, Jupyter notebook, CNN in Keras libraries and IBM Cloud Object Storage
 
-Watch the Overview Video
-
 
 Flow
 WKSCreateProject
@@ -56,10 +54,6 @@ If you have not already signed up for Watson Studio then you can sign up here. B
 2. Building Machine Learning Model
 2.1 Data preparation
 Training a machine learning model requires a large number of documents and variety in them. While we have trained and tested the methodology followed in this code pattern, which has given good accuracy (>85%) with a large dataset, we cannot provide those images since they are not publicly available images. For the sake of executing this code pattern and understanding the methodology we have provided our personal documents and masked personal information on those documents. Please note that multiple copies, with resolution and color changes, of same kind of documents are provided. It is recommended that the user create their own set of images and use them in this code pattern so that they can appreciate the real value of this code pattern. To create your own dataset, follow the following naming structure for each type of image -
-
-
-
-You can use the dataset provided in this code pattern or create your own dataset. To use the dataset provided in this code pattern, download the Data.zip file from Data folder of this repository
 
 To create your own dataset
 Create a folder named Data. Then create three sub-folders named Train_Data, Test_Data, Val_Data which are used for training, testing and validation respectively. Since we have used Cheque, Form Documents, Driving License, Pancard and Passport create folders to indicate the types of documents Cheque,Documents,Driving_License,Pancard,Passport which will be the classes that machine learning model learns and classifies images.
